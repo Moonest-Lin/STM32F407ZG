@@ -1,0 +1,10 @@
+.\objects\usart.o: System\Usart.c
+.\objects\usart.o: .\User\pre.h
+.\objects\usart.o: .\CMSIS\stm32f4xx.h
+.\objects\usart.o: .\CMSIS\Include\core_cm4.h
+.\objects\usart.o: C:\Software\MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\usart.o: .\CMSIS\Include\core_cmInstr.h
+.\objects\usart.o: .\CMSIS\Include\core_cmFunc.h
+.\objects\usart.o: .\CMSIS\Include\core_cm4_simd.h
+.\objects\usart.o: .\CMSIS\system_stm32f4xx.h
+.\objects\usart.o: C:\Software\MDK\ARM\ARMCC\Bin\..\include\stdio.h

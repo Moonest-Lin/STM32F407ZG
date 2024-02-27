@@ -1,0 +1,9 @@
+.\objects\led.o: hardware\led.c
+.\objects\led.o: .\User\pre.h
+.\objects\led.o: .\CMSIS\stm32f4xx.h
+.\objects\led.o: .\CMSIS\Include\core_cm4.h
+.\objects\led.o: C:\Software\MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\led.o: .\CMSIS\Include\core_cmInstr.h
+.\objects\led.o: .\CMSIS\Include\core_cmFunc.h
+.\objects\led.o: .\CMSIS\Include\core_cm4_simd.h
+.\objects\led.o: .\CMSIS\system_stm32f4xx.h

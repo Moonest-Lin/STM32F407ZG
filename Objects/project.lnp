@@ -1,8 +1,13 @@
 --cpu Cortex-M4.fp
 ".\objects\startup_stm32f40_41xxx.o"
 ".\objects\system_stm32f4xx.o"
+".\objects\delay.o"
+".\objects\exti.o"
+".\objects\timer.o"
+".\objects\usart.o"
+".\objects\led.o"
 ".\objects\main.o"
---strict --scatter ".\Objects\project.sct"
+--library_type=microlib --strict --scatter ".\Objects\project.sct"
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list ".\Listings\project.map" -o .\Objects\project.axf
