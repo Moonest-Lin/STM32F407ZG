@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\Objects\project.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\Objects\project.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060061: Last Updated: Tue Feb 27 16:59:54 2024
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060061: Last Updated: Wed Feb 28 11:43:50 2024
 <BR><P>
 <H3>Maximum Stack Usage =        128 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -118,7 +118,7 @@ Function Pointers
  <LI><a href="#[31]">USART3_IRQHandler</a> from startup_stm32f40_41xxx.o(.text) referenced from startup_stm32f40_41xxx.o(RESET)
  <LI><a href="#[51]">USART6_IRQHandler</a> from startup_stm32f40_41xxx.o(.text) referenced from startup_stm32f40_41xxx.o(RESET)
  <LI><a href="#[5]">UsageFault_Handler</a> from startup_stm32f40_41xxx.o(.text) referenced from startup_stm32f40_41xxx.o(RESET)
- <LI><a href="#[a]">WWDG_IRQHandler</a> from startup_stm32f40_41xxx.o(.text) referenced from startup_stm32f40_41xxx.o(RESET)
+ <LI><a href="#[a]">WWDG_IRQHandler</a> from wwdg.o(i.WWDG_IRQHandler) referenced from startup_stm32f40_41xxx.o(RESET)
  <LI><a href="#[5e]">__main</a> from entry.o(.ARM.Collect$$$$00000000) referenced from startup_stm32f40_41xxx.o(.text)
  <LI><a href="#[5f]">fputc</a> from usart.o(i.fputc) referenced from printf1.o(i.__0printf$1)
  <LI><a href="#[5c]">main</a> from main.o(i.main) referenced from entry9a.o(.ARM.Collect$$$$0000000B)
@@ -457,9 +457,6 @@ Global Symbols
 <P><STRONG><a name="[51]"></a>USART6_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f40_41xxx.o(.text))
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f40_41xxx.o(RESET)
 </UL>
-<P><STRONG><a name="[a]"></a>WWDG_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f40_41xxx.o(.text))
-<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f40_41xxx.o(RESET)
-</UL>
 <P><STRONG><a name="[62]"></a>__aeabi_dadd</STRONG> (Thumb, 322 bytes, Stack size 48 bytes, dadd.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = __aeabi_dadd &rArr; _double_epilogue &rArr; _double_round
 </UL>
@@ -628,6 +625,9 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
+<P><STRONG><a name="[a]"></a>WWDG_IRQHandler</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, wwdg.o(i.WWDG_IRQHandler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f40_41xxx.o(RESET)
+</UL>
 <P><STRONG><a name="[74]"></a>__0printf$1</STRONG> (Thumb, 22 bytes, Stack size 24 bytes, printf1.o(i.__0printf$1), UNUSED)
 <BR><BR>[Calls]<UL><LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
 </UL>

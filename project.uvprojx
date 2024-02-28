@@ -186,7 +186,7 @@
             <hadIRAM2>1</hadIRAM2>
             <hadIROM2>0</hadIROM2>
             <StupSel>8</StupSel>
-            <useUlib>0</useUlib>
+            <useUlib>1</useUlib>
             <EndSel>0</EndSel>
             <uLtcg>0</uLtcg>
             <nSecure>0</nSecure>
@@ -322,7 +322,7 @@
             <wLevel>2</wLevel>
             <uThumb>0</uThumb>
             <uSurpInc>0</uSurpInc>
-            <uC99>0</uC99>
+            <uC99>1</uC99>
             <useXO>0</useXO>
             <v6Lang>1</v6Lang>
             <v6LangP>1</v6LangP>
@@ -409,6 +409,26 @@
               <FileName>Exti.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\System\Exti.h</FilePath>
+            </File>
+            <File>
+              <FileName>Timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\System\Timer.c</FilePath>
+            </File>
+            <File>
+              <FileName>Timer.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\System\Timer.h</FilePath>
+            </File>
+            <File>
+              <FileName>Usart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\System\Usart.c</FilePath>
+            </File>
+            <File>
+              <FileName>Usart.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\System\Usart.h</FilePath>
             </File>
           </Files>
         </Group>

@@ -1,6 +1,6 @@
 Dependencies for Project 'project', Target 'STM32F407ZG': (DO NOT MODIFY !)
-F (.\CMSIS\startup_stm32f40_41xxx.s)(0x53DBBC54)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\code\STM32\STM32F407ZG\3.1-Homework\RTE-I C:\Software\MDK\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Software\MDK\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 518" --pd "STM32F407xx SETA 1"--list .\listings\startup_stm32f40_41xxx.lst --xref -o .\objects\startup_stm32f40_41xxx.o --depend .\objects\startup_stm32f40_41xxx.d)
-F (.\CMSIS\system_stm32f4xx.c)(0x53DBBB10)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\CMSIS\Include -I .\User -I .\hardware -I .\System-I C:\code\STM32\STM32F407ZG\3.1-Homework\RTE-I C:\Software\MDK\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Software\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DSTM32F407xx -DSTM32F40_41xxx-o .\objects\system_stm32f4xx.o --omf_browse .\objects\system_stm32f4xx.crf --depend .\objects\system_stm32f4xx.d)
+F (.\CMSIS\startup_stm32f40_41xxx.s)(0x53DBBC54)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\code\STM32\STM32F407ZG\0-RegisterTemplate\RTE-I C:\Software\MDK\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Software\MDK\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 518" --pd "STM32F407xx SETA 1"--list .\listings\startup_stm32f40_41xxx.lst --xref -o .\objects\startup_stm32f40_41xxx.o --depend .\objects\startup_stm32f40_41xxx.d)
+F (.\CMSIS\system_stm32f4xx.c)(0x53DBBB10)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\CMSIS\Include -I .\User -I .\hardware -I .\System-I C:\code\STM32\STM32F407ZG\0-RegisterTemplate\RTE-I C:\Software\MDK\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Software\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DSTM32F407xx -DSTM32F40_41xxx-o .\objects\system_stm32f4xx.o --omf_browse .\objects\system_stm32f4xx.crf --depend .\objects\system_stm32f4xx.d)
 I (CMSIS\stm32f4xx.h)(0x53DBA48A)
 I (.\CMSIS\Include\core_cm4.h)(0x53C7D532)
 I (C:\Software\MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
@@ -8,7 +8,7 @@ I (.\CMSIS\Include\core_cmInstr.h)(0x53C7D532)
 I (.\CMSIS\Include\core_cmFunc.h)(0x53C7D532)
 I (.\CMSIS\Include\core_cm4_simd.h)(0x53C7D532)
 I (CMSIS\system_stm32f4xx.h)(0x53DBA49A)
-F (.\System\delay.c)(0x65D45604)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\CMSIS\Include -I .\User -I .\hardware -I .\System-I C:\code\STM32\STM32F407ZG\3.1-Homework\RTE-I C:\Software\MDK\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Software\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DSTM32F407xx -DSTM32F40_41xxx-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+F (.\System\delay.c)(0x65D45604)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\CMSIS\Include -I .\User -I .\hardware -I .\System-I C:\code\STM32\STM32F407ZG\0-RegisterTemplate\RTE-I C:\Software\MDK\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Software\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DSTM32F407xx -DSTM32F40_41xxx-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
 I (.\CMSIS\stm32f4xx.h)(0x53DBA48A)
 I (.\CMSIS\Include\core_cm4.h)(0x53C7D532)
 I (C:\Software\MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
@@ -17,8 +17,8 @@ I (.\CMSIS\Include\core_cmFunc.h)(0x53C7D532)
 I (.\CMSIS\Include\core_cm4_simd.h)(0x53C7D532)
 I (.\CMSIS\system_stm32f4xx.h)(0x53DBA49A)
 F (.\System\delay.h)(0x65D32FA1)()
-F (.\System\Exti.c)(0x65DDA489)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\CMSIS\Include -I .\User -I .\hardware -I .\System-I C:\code\STM32\STM32F407ZG\3.1-Homework\RTE-I C:\Software\MDK\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Software\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DSTM32F407xx -DSTM32F40_41xxx-o .\objects\exti.o --omf_browse .\objects\exti.crf --depend .\objects\exti.d)
-I (.\User\pre.h)(0x65DDA388)
+F (.\System\Exti.c)(0x65DE8EAC)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\CMSIS\Include -I .\User -I .\hardware -I .\System-I C:\code\STM32\STM32F407ZG\0-RegisterTemplate\RTE-I C:\Software\MDK\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Software\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DSTM32F407xx -DSTM32F40_41xxx-o .\objects\exti.o --omf_browse .\objects\exti.crf --depend .\objects\exti.d)
+I (.\User\pre.h)(0x65DE954D)
 I (.\CMSIS\stm32f4xx.h)(0x53DBA48A)
 I (.\CMSIS\Include\core_cm4.h)(0x53C7D532)
 I (C:\Software\MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
@@ -28,8 +28,8 @@ I (.\CMSIS\Include\core_cm4_simd.h)(0x53C7D532)
 I (.\CMSIS\system_stm32f4xx.h)(0x53DBA49A)
 I (.\hardware\led.h)(0x65DD7D53)
 F (.\System\Exti.h)(0x65DDA00C)()
-F (.\System\Timer.c)(0x65DD9F87)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\CMSIS\Include -I .\User -I .\hardware -I .\System-I C:\code\STM32\STM32F407ZG\3.1-Homework\RTE-I C:\Software\MDK\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Software\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DSTM32F407xx -DSTM32F40_41xxx-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
-I (.\User\pre.h)(0x65DDA388)
+F (.\System\Timer.c)(0x65DE9AA4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\CMSIS\Include -I .\User -I .\hardware -I .\System-I C:\code\STM32\STM32F407ZG\0-RegisterTemplate\RTE-I C:\Software\MDK\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Software\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DSTM32F407xx -DSTM32F40_41xxx-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
+I (.\User\pre.h)(0x65DE954D)
 I (.\CMSIS\stm32f4xx.h)(0x53DBA48A)
 I (.\CMSIS\Include\core_cm4.h)(0x53C7D532)
 I (C:\Software\MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
@@ -38,8 +38,8 @@ I (.\CMSIS\Include\core_cmFunc.h)(0x53C7D532)
 I (.\CMSIS\Include\core_cm4_simd.h)(0x53C7D532)
 I (.\CMSIS\system_stm32f4xx.h)(0x53DBA49A)
 F (.\System\Timer.h)(0x65DD9B13)()
-F (.\System\Usart.c)(0x65DDA41A)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\CMSIS\Include -I .\User -I .\hardware -I .\System-I C:\code\STM32\STM32F407ZG\3.1-Homework\RTE-I C:\Software\MDK\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Software\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DSTM32F407xx -DSTM32F40_41xxx-o .\objects\usart.o --omf_browse .\objects\usart.crf --depend .\objects\usart.d)
-I (.\User\pre.h)(0x65DDA388)
+F (.\System\Usart.c)(0x65DDA41A)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\CMSIS\Include -I .\User -I .\hardware -I .\System-I C:\code\STM32\STM32F407ZG\0-RegisterTemplate\RTE-I C:\Software\MDK\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Software\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DSTM32F407xx -DSTM32F40_41xxx-o .\objects\usart.o --omf_browse .\objects\usart.crf --depend .\objects\usart.d)
+I (.\User\pre.h)(0x65DE954D)
 I (.\CMSIS\stm32f4xx.h)(0x53DBA48A)
 I (.\CMSIS\Include\core_cm4.h)(0x53C7D532)
 I (C:\Software\MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
@@ -49,8 +49,28 @@ I (.\CMSIS\Include\core_cm4_simd.h)(0x53C7D532)
 I (.\CMSIS\system_stm32f4xx.h)(0x53DBA49A)
 I (C:\Software\MDK\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
 F (.\System\Usart.h)(0x65DD9D54)()
-F (.\hardware\led.c)(0x65DD8C77)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\CMSIS\Include -I .\User -I .\hardware -I .\System-I C:\code\STM32\STM32F407ZG\3.1-Homework\RTE-I C:\Software\MDK\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Software\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DSTM32F407xx -DSTM32F40_41xxx-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
-I (.\User\pre.h)(0x65DDA388)
+F (.\System\IWDG.c)(0x65DE9C6F)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\CMSIS\Include -I .\User -I .\hardware -I .\System-I C:\code\STM32\STM32F407ZG\0-RegisterTemplate\RTE-I C:\Software\MDK\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Software\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DSTM32F407xx -DSTM32F40_41xxx-o .\objects\iwdg.o --omf_browse .\objects\iwdg.crf --depend .\objects\iwdg.d)
+I (.\User\pre.h)(0x65DE954D)
+I (.\CMSIS\stm32f4xx.h)(0x53DBA48A)
+I (.\CMSIS\Include\core_cm4.h)(0x53C7D532)
+I (C:\Software\MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (.\CMSIS\Include\core_cmInstr.h)(0x53C7D532)
+I (.\CMSIS\Include\core_cmFunc.h)(0x53C7D532)
+I (.\CMSIS\Include\core_cm4_simd.h)(0x53C7D532)
+I (.\CMSIS\system_stm32f4xx.h)(0x53DBA49A)
+F (.\System\IWDG.h)(0x65DE9B60)()
+F (.\System\WWDG.c)(0x65DEABF3)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\CMSIS\Include -I .\User -I .\hardware -I .\System-I C:\code\STM32\STM32F407ZG\0-RegisterTemplate\RTE-I C:\Software\MDK\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Software\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DSTM32F407xx -DSTM32F40_41xxx-o .\objects\wwdg.o --omf_browse .\objects\wwdg.crf --depend .\objects\wwdg.d)
+I (.\User\pre.h)(0x65DE954D)
+I (.\CMSIS\stm32f4xx.h)(0x53DBA48A)
+I (.\CMSIS\Include\core_cm4.h)(0x53C7D532)
+I (C:\Software\MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (.\CMSIS\Include\core_cmInstr.h)(0x53C7D532)
+I (.\CMSIS\Include\core_cmFunc.h)(0x53C7D532)
+I (.\CMSIS\Include\core_cm4_simd.h)(0x53C7D532)
+I (.\CMSIS\system_stm32f4xx.h)(0x53DBA49A)
+F (.\System\WWDG.h)(0x65DEA830)()
+F (.\hardware\led.c)(0x65DD8C77)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\CMSIS\Include -I .\User -I .\hardware -I .\System-I C:\code\STM32\STM32F407ZG\0-RegisterTemplate\RTE-I C:\Software\MDK\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Software\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DSTM32F407xx -DSTM32F40_41xxx-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (.\User\pre.h)(0x65DE954D)
 I (.\CMSIS\stm32f4xx.h)(0x53DBA48A)
 I (.\CMSIS\Include\core_cm4.h)(0x53C7D532)
 I (C:\Software\MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
@@ -59,7 +79,7 @@ I (.\CMSIS\Include\core_cmFunc.h)(0x53C7D532)
 I (.\CMSIS\Include\core_cm4_simd.h)(0x53C7D532)
 I (.\CMSIS\system_stm32f4xx.h)(0x53DBA49A)
 F (.\hardware\led.h)(0x65DD7D53)()
-F (.\User\main.c)(0x65DDA489)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\CMSIS\Include -I .\User -I .\hardware -I .\System-I C:\code\STM32\STM32F407ZG\3.1-Homework\RTE-I C:\Software\MDK\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Software\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DSTM32F407xx -DSTM32F40_41xxx-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (.\User\main.c)(0x65DDA489)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\CMSIS\Include -I .\User -I .\hardware -I .\System-I C:\code\STM32\STM32F407ZG\0-RegisterTemplate\RTE-I C:\Software\MDK\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Software\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DSTM32F407xx -DSTM32F40_41xxx-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (.\CMSIS\stm32f4xx.h)(0x53DBA48A)
 I (.\CMSIS\Include\core_cm4.h)(0x53C7D532)
 I (C:\Software\MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
@@ -72,5 +92,5 @@ I (.\System\exti.h)(0x65DDA00C)
 I (.\System\usart.h)(0x65DD9D54)
 I (.\System\timer.h)(0x65DD9B13)
 I (C:\Software\MDK\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
-F (.\User\pre.h)(0x65DDA388)()
+F (.\User\pre.h)(0x65DE954D)()
 F (.\User\io_bit.h)(0x65DD438A)()

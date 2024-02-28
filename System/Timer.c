@@ -2,9 +2,9 @@
 
 void Timer6_Init(void)
 {
-	B1(RCC->APB1ENR,4);
+	B1(RCC->APB1ENR,$TIM6_APB1);
 	
-	B1(TIM6->CR1,7);
+	B1(TIM6->CR1,$TIM_ARPE_CR1);
 	B0(TIM6->CR1,3);
 	
 	B0(TIM6->CR1,2);
@@ -19,7 +19,7 @@ void Timer6_Init(void)
 	
 	B1(TIM6->DIER,0);
 	
-	NVIC_SetPriority(TIM6_DAC_IRQn,NVIC_EncodePriority(7-2,0,0));
+	NVIC_SetPriority(TIM6_DAC_IRQn,NVIC_EncodePriority($NVIC_PriorityGroup,0,0));
 	NVIC_EnableIRQ(TIM6_DAC_IRQn);
 	
 	B0(TIM6->CR1,0);

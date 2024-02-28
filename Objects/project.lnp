@@ -5,6 +5,8 @@
 ".\objects\exti.o"
 ".\objects\timer.o"
 ".\objects\usart.o"
+".\objects\iwdg.o"
+".\objects\wwdg.o"
 ".\objects\led.o"
 ".\objects\main.o"
 --library_type=microlib --strict --scatter ".\Objects\project.sct"

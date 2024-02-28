@@ -5,15 +5,15 @@
 
 void EXTI0_Init(void)
 {
-	B1(RCC->AHB1ENR,0);
-	B1(RCC->APB2ENR,14);
+	B1(RCC->AHB1ENR,$GPIOA_AHB1);
+	B1(RCC->APB2ENR,$SYSCFGEN_APB2);
 	
 	B0000(SYSCFG->EXTICR[0],$EXTI0);
 	
 	B1(EXTI->RTSR,$EXTI0);
 	B1(EXTI->FTSR,$EXTI0);
 	
-	NVIC_SetPriority(EXTI0_IRQn,NVIC_EncodePriority(7-2,0,0));
+	NVIC_SetPriority(EXTI0_IRQn,NVIC_EncodePriority($NVIC_PriorityGroup,0,0));
 	NVIC_EnableIRQ(EXTI0_IRQn);
 	
 	B1(EXTI->PR,$EXTI0);
