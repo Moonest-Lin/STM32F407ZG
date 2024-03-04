@@ -1,0 +1,12 @@
+.\objects\bcd.o: System\BCD.c
+.\objects\bcd.o: .\User\pre.h
+.\objects\bcd.o: .\CMSIS\stm32f4xx.h
+.\objects\bcd.o: .\CMSIS\Include\core_cm4.h
+.\objects\bcd.o: C:\Software\MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\bcd.o: .\CMSIS\Include\core_cmInstr.h
+.\objects\bcd.o: .\CMSIS\Include\core_cmFunc.h
+.\objects\bcd.o: .\CMSIS\Include\core_cm4_simd.h
+.\objects\bcd.o: .\CMSIS\system_stm32f4xx.h
+.\objects\bcd.o: System\delay.h
+.\objects\bcd.o: C:\Software\MDK\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\bcd.o: C:\Software\MDK\ARM\ARMCC\Bin\..\include\string.h

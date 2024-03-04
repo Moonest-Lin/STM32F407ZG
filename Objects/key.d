@@ -1,0 +1,10 @@
+.\objects\key.o: hardware\Key.c
+.\objects\key.o: hardware\Key.h
+.\objects\key.o: .\CMSIS\stm32f4xx.h
+.\objects\key.o: .\CMSIS\Include\core_cm4.h
+.\objects\key.o: C:\Software\MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\key.o: .\CMSIS\Include\core_cmInstr.h
+.\objects\key.o: .\CMSIS\Include\core_cmFunc.h
+.\objects\key.o: .\CMSIS\Include\core_cm4_simd.h
+.\objects\key.o: .\CMSIS\system_stm32f4xx.h
+.\objects\key.o: .\System\delay.h

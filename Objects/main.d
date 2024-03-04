@@ -7,7 +7,8 @@
 .\objects\main.o: .\CMSIS\Include\core_cm4_simd.h
 .\objects\main.o: .\CMSIS\system_stm32f4xx.h
 .\objects\main.o: .\hardware\led.h
-.\objects\main.o: .\System\exti.h
 .\objects\main.o: .\System\usart.h
-.\objects\main.o: .\System\timer.h
 .\objects\main.o: C:\Software\MDK\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\main.o: .\System\delay.h
+.\objects\main.o: .\System\RTC.h
+.\objects\main.o: User\pre.h

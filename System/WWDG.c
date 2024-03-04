@@ -2,7 +2,7 @@
 
 void WWDG_Init(void)
 {
-	B1(RCC->APB1ENR,$WWDG_APB1);
+	B1(RCC->APB1ENR,$RCC_WWDG_APB1);
 	
 	WWDG->CR = 0;
 	WWDG->CR |= 0x7F;

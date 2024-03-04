@@ -1,0 +1,12 @@
+.\objects\rtc.o: System\RTC.c
+.\objects\rtc.o: .\User\pre.h
+.\objects\rtc.o: .\CMSIS\stm32f4xx.h
+.\objects\rtc.o: .\CMSIS\Include\core_cm4.h
+.\objects\rtc.o: C:\Software\MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\rtc.o: .\CMSIS\Include\core_cmInstr.h
+.\objects\rtc.o: .\CMSIS\Include\core_cmFunc.h
+.\objects\rtc.o: .\CMSIS\Include\core_cm4_simd.h
+.\objects\rtc.o: .\CMSIS\system_stm32f4xx.h
+.\objects\rtc.o: System\delay.h
+.\objects\rtc.o: C:\Software\MDK\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\rtc.o: C:\Software\MDK\ARM\ARMCC\Bin\..\include\string.h

@@ -430,6 +430,46 @@
               <FileType>5</FileType>
               <FilePath>.\System\Usart.h</FilePath>
             </File>
+            <File>
+              <FileName>IWDG.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\System\IWDG.c</FilePath>
+            </File>
+            <File>
+              <FileName>IWDG.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\System\IWDG.h</FilePath>
+            </File>
+            <File>
+              <FileName>WWDG.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\System\WWDG.c</FilePath>
+            </File>
+            <File>
+              <FileName>WWDG.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\System\WWDG.h</FilePath>
+            </File>
+            <File>
+              <FileName>LowPow.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\System\LowPow.c</FilePath>
+            </File>
+            <File>
+              <FileName>LowPow.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\System\LowPow.h</FilePath>
+            </File>
+            <File>
+              <FileName>RTC.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\System\RTC.c</FilePath>
+            </File>
+            <File>
+              <FileName>RTC.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\System\RTC.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -444,6 +484,16 @@
               <FileName>led.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\hardware\led.h</FilePath>
+            </File>
+            <File>
+              <FileName>Key.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\hardware\Key.c</FilePath>
+            </File>
+            <File>
+              <FileName>Key.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\hardware\Key.h</FilePath>
             </File>
           </Files>
         </Group>

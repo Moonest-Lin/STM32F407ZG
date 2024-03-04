@@ -7,7 +7,10 @@
 ".\objects\usart.o"
 ".\objects\iwdg.o"
 ".\objects\wwdg.o"
+".\objects\lowpow.o"
+".\objects\rtc.o"
 ".\objects\led.o"
+".\objects\key.o"
 ".\objects\main.o"
 --library_type=microlib --strict --scatter ".\Objects\project.sct"
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
